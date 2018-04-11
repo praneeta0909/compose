@@ -1,7 +1,7 @@
 version: "3"
 services:
   web:
-    image: dtr.rlindia.com/praneeta0909/easy-node-authentication
+    image: dtr.rlindia.com/praneeta0909/easy-node-authentication:latest
     ports:
     - "8080:8080"
     depends_on:
