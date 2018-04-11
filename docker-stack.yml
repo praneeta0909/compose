@@ -3,7 +3,7 @@ services:
   web:
     image: dtr.rlindia.com/praneeta0909/easy-node-authentication:latest
     ports:
-    - "8080:8080"
+    - "9080:9080"
     depends_on:
     - mongo
   mongo:
