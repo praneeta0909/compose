@@ -1,17 +1,17 @@
 version: "3"
 services:
   web:
-    image: hagaik
+    image: dtr.rlindia.com/praneeta0909/easy-node-authentication
     build: .
     deploy:
-      replicas: 2
+      replicas: 1
     ports:
-    - "8080:8080"
+    - "9090:9090"
     depends_on:
     - mongo
   mongo:
     image: mongo
     deploy:
-      replicas: 2
+      replicas: 1
     ports:
     - "27017:27017"
